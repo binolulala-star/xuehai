@@ -449,6 +449,9 @@ img.art.hd{object-fit:contain;object-position:50% 100%}
 /* 大螢幕：放寬版面 */
 @media (min-width:1100px){.wrap{max-width:min(1440px,94vw);gap:16px;padding-block:14px 32px}.topbar{font-size:16px}.tstat{font-size:15px}}
 
+/* 讓 hidden 屬性一定生效（離開 Claude 頁面時也一樣） */
+[hidden]{display:none!important}
+
 </style>
 
 <div class="wrap">
